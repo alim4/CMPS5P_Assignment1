@@ -40,32 +40,6 @@ Example Program
 
 This is a simple example of the type of program we'd like to see from you. Note the comment at the top with the UCSC gold ID and the citation of sources above the formula for calculating the area of the circle.
 
-# Ethan Miller
-# elm@ucsc.edu
-#
-# CMPS 5P, Spring 2014
-# Assignment 1
-#
-# A simple program to calculate the area of a circle
-
-__author__ = 'elm'
-
-# This formula for the area of a circle was taken from
-# http://mathworld.wolfram.com/Circle.html
-#
-# The value of pi was obtained from Wikipedia:
-# http://en.wikipedia.org/wiki/Pi
-def circle_area (radius):
-    '''
-    Calculates the area of a circle given the radius.
-    '''
-    pi = 3.1415926535897932
-    area = pi * (radius ** 2)
-    return (area)
-
-radius = float (raw_input ('What is the length of the radius? '))
-area = circle_area (radius)
-print ('The area of the circle with radius {0} is {1}'.format(radius, area))
 Hints
 
 Start early!
